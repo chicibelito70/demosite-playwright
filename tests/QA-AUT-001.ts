@@ -41,7 +41,3 @@ test('QA-AUT-001 Validar navegación a módulo "Elements', async ({ page }) => {
   
 });
 
-export default defineConfig({
-  testDir: './tests',
-  testMatch: '**/*.ts',
-});
