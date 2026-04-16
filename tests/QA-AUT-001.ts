@@ -40,3 +40,8 @@ test('QA-AUT-001 Validar navegación a módulo "Elements', async ({ page }) => {
   await expect(page).toHaveURL(/\/elements/);
   
 });
+
+export default defineConfig({
+  testDir: './tests',
+  testMatch: '**/*.ts',
+});
