@@ -31,7 +31,7 @@ Playwright + TypeScript
 
 import { test, expect } from '@playwright/test';
 
-test('Validar navegación a módulo "Elements', async ({ page }) => {
+test('QA-AUT-001 Validar navegación a módulo "Elements', async ({ page }) => {
   await page.goto('https://demoqa.com/');  
   await expect(page).toHaveURL('https://demoqa.com/');
   
